@@ -90,7 +90,20 @@ $ ansible-playbook site.yml --list-tasks
 $ ansible-playbook site.yml --list-hosts
 ```
 
-## Import Data
+
+## Now we are ready
+
+* Congrats! Now the environment is ready
+* Do whatever you like
+
+
+### Use Anaconda
+
+* Anaconda should be helpful for Python analytic tools management
+    * [Anaconda Documentation](https://docs.continuum.io/anaconda/index#user-guide)
+
+
+### Import Data
 
 * On server (e.g. vagrant), download dump data and restore it to PostgreSQL like by commands below
 
@@ -102,7 +115,7 @@ $ psql -U postgres --set ON_ERROR_STOP=on -f /vagrant/var/vcc-database.dump
 ```
 
 
-## Lookup data on Postico
+### Lookup data on Postico
 
 * Postico is a PostgreSQL Client for Mac
     * Screenshots below are the example how to setup to connect the database on Vagrant
@@ -110,9 +123,3 @@ $ psql -U postgres --set ON_ERROR_STOP=on -f /vagrant/var/vcc-database.dump
 ![Postico Settings](https://dl.dropboxusercontent.com/u/6998388/vcc_data/postico_settings.png)
 
 ![Postico Commits Table](https://dl.dropboxusercontent.com/u/6998388/vcc_data/postico_commits.png)
-
-
-## Now we are ready
-
-* Anaconda should be helpful for analytics
-    * [Anaconda Documentation](https://docs.continuum.io/anaconda/index#user-guide)
