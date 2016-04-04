@@ -1,6 +1,8 @@
 # https://github.com/William-Yeh/ansible-fluentd/blob/master/test/Dockerfile-centos6
 ---
 
+sudo: required
+dist: trusty
 language: python
 python: "2.7"
 before_install:
