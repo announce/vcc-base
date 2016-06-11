@@ -7,7 +7,7 @@ vcc-base
 ## Introduction
 
 #### TL;DR
-* This Ansible playbook constructs VCC research environment into single server node.
+* This Ansible playbook constructs VCC research DB server into single server node.
 
 
 #### Related Papers
@@ -115,9 +115,3 @@ $ psql -U postgres --set ON_ERROR_STOP=on -f /vagrant/var/vcc-database.dump
 ![Postico Settings](https://dl.dropboxusercontent.com/u/6998388/vcc_data/postico_settings.png)
 
 ![Postico Commits Table](https://dl.dropboxusercontent.com/u/6998388/vcc_data/postico_commits.png)
-
-
-## Now we are ready
-
-* [Anaconda](https://docs.continuum.io/anaconda/index#user-guide) should be helpful to install further analytical tools
-* Good luck

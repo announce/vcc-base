@@ -12,6 +12,4 @@
     - ANXS.fail2ban
     - ANXS.logwatch
     - geerlingguy.postfix
-    - avanov.pyenv
-    - andrewrothstein.anaconda
     - ANXS.postgresql

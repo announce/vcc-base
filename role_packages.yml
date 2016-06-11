@@ -5,7 +5,6 @@
 # ```
 
 - src: ANXS.apt
-- src: andrewrothstein.anaconda
 - src: ANXS.build-essential
 - src: ANXS.fail2ban
 - src: ANXS.git
@@ -13,4 +12,3 @@
 - src: ANXS.postgresql
 - src: geerlingguy.postfix
 - src: ANXS.timezone
-- src: avanov.pyenv
